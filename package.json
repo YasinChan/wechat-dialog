@@ -1,0 +1,22 @@
+{
+  "name": "wechat-demo",
+  "version": "1.0.0",
+  "description": "A wonderful miniapp application",
+  "scripts": {
+    "test": "echo 0",
+    "clear": "minapp clear dist",
+    "dev": "minapp dev",
+    "build": "minapp build --publicPath http://your.static.server/"
+  },
+  "author": "yasinchan<yasinchan2016@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@minapp/component-demo": "^2.0.0",
+    "@minapp/component-toast": "^2.0.0",
+    "@minapp/core": "^2.0.0",
+    "@minapp/wx": "latest"
+  },
+  "devDependencies": {
+    "babel-runtime": "^6.24.0"
+  }
+}
