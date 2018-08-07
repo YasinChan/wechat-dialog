@@ -38,4 +38,8 @@ export default class extends MyPage {
   increase() {
     this.setDataSmart({count: this.data.count + 1})
   }
+
+  restart() {
+    console.log('重新开始');
+  }
 }

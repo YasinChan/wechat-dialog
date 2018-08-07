@@ -1,3 +1,5 @@
 <view class="inc">
-  <text>我是来自 inc.wxml 中的文字</text>
+  <image class="avatar" src="../../images/avatar.png"></image>
+  <view class="talk">请确认一下个人信息是否正确。然后，我将问询您的症状并进一步提问，然后给出一份分诊推测，给您提供参考建议</view>
 </view>
+<view>显示选项：选项一；选项二；选项三；</view>
